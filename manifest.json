@@ -3,7 +3,7 @@
 	"name": "Fandom Force Hydra",
 	"author": "HexedHero",
 	"version": "1.0.0",
-	"description": "Forces all Fandom websites to use the Hydra theme even when logged out!",
+	"description": "Force Fandom to use the Hydra theme!",
 	"manifest_version": 2,
 
 	"background":

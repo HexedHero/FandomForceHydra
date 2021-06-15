@@ -30,7 +30,9 @@
             // Redirect
             chrome.tabs.update(info.tabId,
             {
+
                 url: redirectUrl
+
             });
 
         }

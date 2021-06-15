@@ -1,0 +1,32 @@
+{
+	
+	"name": "Fandom Force Hydra",
+	"author": "HexedHero",
+	"version": "1.0.0",
+	"description": "Forces all Fandom websites to use the Hydra theme even when logged out!",
+	"manifest_version": 2,
+
+	"background":
+	{
+
+		"scripts": ["background.js"],
+		"persistent": true
+
+	},
+	"permissions":
+	[
+
+      	"*://*.fandom.com/*",
+        "webNavigation"
+
+	],
+	"icons":
+	{ 
+
+		"16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+
+    }
+	
+}

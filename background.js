@@ -16,6 +16,8 @@
 
             }
 
+            var usingQuery = false;
+
             // Check if we are already using the Hydra theme
             if (url.search.includes("useskin=hydra"))
             {
@@ -24,8 +26,16 @@
 
             }
 
+            // Check if we already have ? in the url
+            if (url.search.includes("?"))
+            {
+
+                usingQuery = true;
+
+            }
+
             // Make new URL
-            const redirectUrl = url + "?useskin=hydra";
+            const redirectUrl = url + (usingQuery ? "&" : "?") + "useskin=hydra";
 
             // Redirect
             chrome.tabs.update(info.tabId,

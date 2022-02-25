@@ -1,32 +1,32 @@
 {
-	
-	"name": "Fandom Force Hydra",
-	"author": "HexedHero",
-	"version": "1.1.0",
-	"description": "Force Fandom to use the Hydra theme!",
-	"manifest_version": 2,
+    
+    "name": "Fandom Force Hydra",
+    "author": "HexedHero",
+    "version": "1.1.0",
+    "description": "Force Fandom to use the Hydra theme!",
+    "manifest_version": 2,
 
-	"background":
-	{
+    "background":
+    {
 
-		"scripts": ["background.js"],
-		"persistent": true
+        "scripts": ["background.js"],
+        "persistent": true
 
-	},
-	"permissions":
-	[
+    },
+    "permissions":
+    [
 
-      	"*://*.fandom.com/*",
+          "*://*.fandom.com/*",
         "webNavigation"
 
-	],
-	"icons":
-	{ 
+    ],
+    "icons":
+    { 
 
-		"16": "icon16.png",
+        "16": "icon16.png",
         "48": "icon48.png",
         "128": "icon128.png"
 
     }
-	
+    
 }
